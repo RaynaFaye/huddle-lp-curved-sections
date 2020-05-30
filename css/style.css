@@ -1,4 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(192, 100%, 9%);
+  margin: 0;
+}
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+}
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  background: hsl(322, 100%, 66%);
+  color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 75px;
+  cursor: pointer;
+}
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+.header__logo {
+  height: 39px;
+}
+.header__button {
+  background: #ffffff;
+  color: hsl(322, 100%, 66%);
+  font-weight: 400;
+  border: 1px solid hsl(322, 100%, 66%);
+  box-shadow: 2px 2px 5px hsl(323, 100%, 95%);
+  padding: 10px 30px;
+}
 
 /* Attribution section */
 .attribution {
@@ -7,4 +45,19 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+@media all and (max-width: 568px) {
+  /* Header */
+  .header {
+    padding: 50px 20px;
+  }
+  .header__logo {
+    height: 20px;
+  }
+  .header__button {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
 }
