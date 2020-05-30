@@ -16,6 +16,7 @@ body {
   color: #ffffff;
   border-radius: 50px;
   border: none;
+  box-shadow: 2px 5px 5px hsl(213, 15%, 88%);
   padding: 15px 75px;
   cursor: pointer;
 }
@@ -37,7 +38,30 @@ body {
   box-shadow: 2px 2px 5px hsl(323, 100%, 95%);
   padding: 10px 30px;
 }
-
+/* Intro Section */
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 100px;
+}
+.intro__title {
+  font-size: 46px;
+}
+.intro__paragraph {
+  font-size: 18px;
+  width: 45%;
+}
+.intro__button {
+  margin-top: 25px;
+}
+.intro__image-block {
+  margin: 75px 100px;
+}
+.intro__image {
+  width: 100%;
+}
 /* Attribution section */
 .attribution {
   font-size: 11px;
@@ -48,16 +72,43 @@ body {
 }
 
 /* Media Queries */
-@media all and (max-width: 568px) {
+@media all and (max-width: 928px) {
   /* Header */
   .header {
     padding: 50px 20px;
   }
+  /* Intro Section */
+  .intro {
+    padding: 50px 40px;
+  }
+  .intro__title {
+    font-size: 36px;
+  }
+  .intro__paragraph {
+    font-size: 16px;
+    width: 75%;
+  }
+  .intro__button {
+    padding: 15px 40px;
+  }
+  .intro__image-block {
+    margin: 75px 0;
+  }
+}
+@media all and (max-width: 568px) {
+  /* Header */
   .header__logo {
     height: 20px;
   }
   .header__button {
     font-size: 12px;
     padding: 5px 20px;
+  }
+  /* Intro Section */
+  .intro__title {
+    font-size: 26px;
+  }
+  .intro__paragraph {
+    width: 100%;
   }
 }
