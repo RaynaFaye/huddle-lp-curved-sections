@@ -82,7 +82,57 @@ body {
   color: hsl(208, 11%, 55%);
   font-size: 18px;
 }
-
+/* Info Sections */
+.info-section {
+  display: flex;
+  padding: 75px 125px;
+  align-items: center;
+}
+.info-section-bgcolor {
+  background: hsl(207, 100%, 98%);
+  flex-direction: row-reverse;
+}
+.info-section__image-block {
+  flex: 1 1 0;
+}
+.info-section__image-block__nocolor {
+  margin-right: 150px;
+}
+.info-section__text-block {
+  flex: 1 1 0;
+}
+.info-section__text-block__bgcolor {
+  margin-right: 150px;
+}
+.info-section__image {
+  width: 100%;
+}
+/* Curves */
+.curve-top-first {
+  height: 165px;
+  background: url(../images/bg-section-top-desktop-1.svg);
+  margin-top: 100px;
+}
+.curve-bottom-first {
+  height: 139px;
+  background: url(../images/bg-section-bottom-desktop-1.svg);
+  margin-bottom: 100px;
+}
+.curve-top-second {
+  height: 156px;
+  background: url(../images/bg-section-top-desktop-2.svg);
+  margin-top: 50px;
+}
+.curve-bottom-second {
+  height: 139px;
+  background: url(../images/bg-section-bottom-desktop-2.svg);
+  margin-bottom: 150px;
+}
+.curve {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* Attribution section */
 .attribution {
   font-size: 11px;
