@@ -133,6 +133,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* Join Section */
+.join-section {
+  text-align: center;
+}
 /* Attribution section */
 .attribution {
   font-size: 11px;
@@ -181,6 +185,13 @@ body {
   }
   .info-section__title {
     font-size: 30px;
+  }
+  /* Join Section */
+  .join-section__title {
+    font-size: 30px;
+  }
+  .join-section__button {
+    padding: 15px 40px;
   }
 }
 @media all and (max-width: 568px) {
