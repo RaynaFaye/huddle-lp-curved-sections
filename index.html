@@ -78,41 +78,44 @@
       <h2 class="title join-section__title">Ready To Build Your Community?</h2>
       <button class="button join-section__button">Get Started For Free</button>
     </section>
-    <footer>
-      <div>
-        <h3>Newsletter</h3>
-        <p>
+    <div class="curve curve-footer-top"></div>
+    <footer class="footer">
+      <div class="footer__newsletter">
+        <h3 class="footer__newsletter__title">Newsletter</h3>
+        <p class="footer__newsletter__paragraph">
           To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address
         </p>
         <form action="">
-          <label for="email">Email Address: </label>
-          <input type="text" id="email" name="email" />
-          <input type="submit" value="Subscribe" />
+          <label for="email" class="screen-reader">Email Address: </label>
+          <input type="text" id="email" name="email" class="footer__newsletter__email-input" />
+          <input type="submit" value="Subscribe" class="button footer__newsletter__button" />
         </form>
       </div>
-      <div>
+      <div class="footer__general-info">
         <img src="images/logo-footer.svg" alt="Huddle" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
-        <ul>
-          <li>Phone: +1-543-123-4567</li>
-          <li>example@huddle.com</li>
+        <p class="footer__general-info__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+        </p>
+        <ul class="footer__list footer__general-info__contact-list">
+          <li class="footer__general-info__phone">Phone: +1-543-123-4567</li>
+          <li class="footer__general-info__email">example@huddle.com</li>
         </ul>
-        <ul>
+        <ul class="footer__list footer__general-info__social-links">
           <li>
-            <a href=""><img src="images/logo-facebook.svg" alt="Access our facebook page" /></a>
+            <a href="" class="footer__general-info__social-link"><img src="images/logo-facebook.svg" alt="Access our facebook page" /></a>
           </li>
           <li>
-            <a href=""><img src="images/logo-instagram.svg" alt="Access our instagram page" /></a>
+            <a href="" class="footer__general-info__social-link_nobg"><img src="images/logo-instagram.svg" alt="Access our instagram page" /></a>
           </li>
           <li>
-            <a href=""><img src="images/logo-twitter.svg" alt="Access our twitter page" /></a>
+            <a href="" class="footer__general-info__social-link"><img src="images/logo-twitter.svg" alt="Access our twitter page" /></a>
           </li>
         </ul>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+          <a href="https://github.com/RaynaFaye">Serena Lombardo</a>.
+        </p>
       </div>
-      <p class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
-        <a href="https://github.com/RaynaFaye">Serena Lombardo</a>.
-      </p>
     </footer>
   </body>
 </html>

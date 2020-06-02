@@ -20,6 +20,14 @@ body {
   padding: 15px 75px;
   cursor: pointer;
 }
+.screen-reader {
+  position: absolute;
+  left: -100vw;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 /* Header */
 .header {
   display: flex;
@@ -107,6 +115,81 @@ body {
 .info-section__image {
   width: 100%;
 }
+/* Join Section */
+.join-section {
+  text-align: center;
+}
+/* Footer */
+.footer {
+  background: hsl(192, 100%, 9%);
+  color: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 75px 125px;
+}
+.footer__newsletter {
+  flex: 1 1 0;
+}
+.footer__newsletter__title {
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.footer__newsletter__paragraph {
+  margin-right: 170px;
+}
+.footer__newsletter__email-input {
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 25px;
+  margin-right: 30px;
+}
+.footer__newsletter__button {
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  padding: 15px 50px;
+}
+.footer__general-info {
+  flex: 1 1 0;
+  margin-right: 100px;
+}
+.footer__general-info__paragraph {
+  width: 65%;
+  margin: 20px 0;
+}
+.footer__list {
+  padding: 0;
+  list-style: none;
+}
+.footer__general-info__contact-list {
+  padding-left: 30px;
+}
+.footer__general-info__contact-list > * {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.footer__general-info__phone {
+  list-style: url(../images/icon-phone.svg);
+}
+.footer__general-info__email {
+  list-style: url(../images/icon-email.svg);
+}
+.footer__general-info__social-links {
+  display: flex;
+  margin-top: 50px;
+}
+.footer__general-info__social-link {
+  background: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.footer__general-info__social-link_nobg {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
 /* Curves */
 .curve-top-first {
   height: 165px;
@@ -128,22 +211,23 @@ body {
   background: url(../images/bg-section-bottom-desktop-2.svg);
   margin-bottom: 150px;
 }
+.curve-footer-top {
+  height: 158px;
+  background: url(../images/bg-footer-top-desktop.svg);
+  margin-top: 50px;
+}
 .curve {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* Join Section */
-.join-section {
-  text-align: center;
-}
 /* Attribution section */
 .attribution {
   font-size: 11px;
-  text-align: center;
+  text-align: left;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #ffffff;
 }
 
 /* Media Queries */
