@@ -151,6 +151,18 @@ body {
   box-shadow: none;
   padding: 15px 50px;
 }
+.tooltip {
+  display: none;
+  color: rgb(218, 55, 55);
+  font-size: 12px;
+  margin: 0 0 10px 25px;
+}
+.tooltiptwo {
+  display: none;
+  color: rgb(50, 182, 50);
+  font-size: 12px;
+  margin: 0 0 10px 25px;
+}
 .footer__general-info {
   flex: 1 1 0;
   margin-right: 100px;
